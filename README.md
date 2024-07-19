@@ -23,8 +23,8 @@ Welcome to **Lunar-Howl-Creations**! This is an open-source project aimed at cre
 1. Fork the repository on GitHub.
 2. Clone your fork to your local machine:
     ```
-    git clone https://github.com/yourusername/Lunar-Howl-Creations.git
-    cd Lunar-Howl-Creations
+    git clone https://github.com/yourusername/lunar-howl-creations.git
+    cd lunar-howl-creations
     ```
 3. Install dependencies:
     ```
