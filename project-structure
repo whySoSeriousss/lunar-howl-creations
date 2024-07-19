@@ -1,0 +1,21 @@
+lunar-howl-webs/
+├── animations/
+│   ├── moon-phase/
+│   │   └── moon-phase.js
+│   ├── werewolf-transformation/
+│   │   └── transformation.js
+├── sounds/
+│   └── werewolf-howl/
+│       └── howl.mp3
+├── designs/
+│   └── night-sky/
+│       └── night-sky.css
+├── widgets/
+│   └── full-moon-calendar/
+│       └── calendar.js
+├── README.md
+├── CONTRIBUTING.md
+├── ISSUE_TEMPLATE.md
+├── PULL_REQUEST_TEMPLATE.md
+├── LICENSE
+└── package.json
