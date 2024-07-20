@@ -13,11 +13,6 @@ Welcome to **Lunar-Howl-Creations**! This is an open-source project aimed at cre
 
 ## Getting Started
 
-### Prerequisites
-
-- [Node.js](https://nodejs.org/)
-- [Git](https://git-scm.com/)
-
 ### Installation
 
 1. Fork the repository on GitHub.
@@ -26,13 +21,6 @@ Welcome to **Lunar-Howl-Creations**! This is an open-source project aimed at cre
     git clone https://github.com/yourusername/lunar-howl-creations.git
     cd lunar-howl-creations
     ```
-3. Install dependencies:
-    ```
-    npm install
-    ```
-4. Start the project:
-    npm start
-
 
 ## Contributing
 
