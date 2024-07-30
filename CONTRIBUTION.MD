@@ -7,7 +7,7 @@ I am very excited that you are interested in contributing to Lunar Howl Webs. Pl
 1. **Fork the repository** on GitHub.
 2. **Clone your fork** to your local machine:
     
-    git clone https://github.com/yourusername/lunar-howl-webs.git
+    git clone https://github.com/whySoSeriousss/lunar-howl-creations.git
     
 3. **Create a new branch** for your changes:
     
