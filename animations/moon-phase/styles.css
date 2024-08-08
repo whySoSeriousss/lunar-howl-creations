@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+}
+
+.moon {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, white 50%, #000 51%);
+    border-radius: 50%;
+    animation: growShrink 4s infinite;
+}
+
+@keyframes growShrink {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
