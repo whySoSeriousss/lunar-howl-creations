@@ -1,18 +1,18 @@
 lunar-howl-creations/
 ├── animations/
 │   ├── moon-phase/
-│   │   └── moon-phase.js
+│   │   └── your-name-moon-phase
 │   ├── werewolf-transformation/
-│   │   └── transformation.js
+│   │   └── your-name-transformation
 ├── sounds/
 │   └── werewolf-howl/
-│       └── howl.mp3
+│       └── your-name-howl
 ├── designs/
 │   └── night-sky/
-│       └── night-sky.css
+│       └── your-name-night-sky
 ├── widgets/
 │   └── full-moon-calendar/
-│       └── calendar.js
+│       └── your-name-calendar
 ├── README.md
 ├── CONTRIBUTING.md
 ├── ISSUE_TEMPLATE.md
