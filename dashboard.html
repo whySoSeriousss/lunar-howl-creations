@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard - Lunar Howl</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="site">
+  <header class="header header--fixed">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">🌕 Lunar Howl</a>
+      <nav class="nav">
+        <a href="#profile" class="nav__link">Profile</a>
+        <a href="#orders" class="nav__link">Orders</a>
+        <a href="#history" class="nav__link">History</a>
+        <button onclick="logout()" class="nav__link nav__link--cta">Logout</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="dashboard">
+    <section class="dashboard__welcome" id="profile">
+      <h2 class="dashboard__title gradient-glow">Welcome to Your Den</h2>
+      <div class="dashboard__stats">
+        <div class="dashboard__stat">
+          <span class="dashboard__stat-value">3</span>
+          <span class="dashboard__stat-label">Active Projects</span>
+        </div>
+        <div class="dashboard__stat">
+          <span class="dashboard__stat-value">12</span>
+          <span class="dashboard__stat-label">Completed</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="dashboard__orders" id="orders">
+      <h3>Current Orders</h3>
+      <div class="order-cards">
+        <!-- Orders will be populated dynamically -->
+      </div>
+    </section>
+
+    <section class="dashboard__history" id="history">
+      <h3>Purchase History</h3>
+      <div class="history-timeline">
+        <!-- History will be populated dynamically -->
+      </div>
+    </section>
+  </main>
+</body>
+</html>

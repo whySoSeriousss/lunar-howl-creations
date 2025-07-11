@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Dashboard - Lunar Howl</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="site">
+  <header class="header header--fixed">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">🌕 Lunar Howl</a>
+      <nav class="nav">
+        <a href="index.html#services" class="nav__link">Services</a>
+        <a href="index.html#about" class="nav__link">About</a>
+        <a href="admin.html" class="nav__link">Admin</a>
+        <a href="index.html#subscribe" class="nav__link nav__link--cta">Join the Pack</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main" style="padding-top: 100px;">
+    <section class="admin">
+      <div class="admin__container">
+        <h3 class="admin__title">Admin Dashboard</h3>
+        <div class="admin__grid">
+          <div class="admin__card">
+            <h4 class="admin__card-title">Clients</h4>
+            <p class="admin__card-count">24</p>
+            <div class="admin__card-chart"></div>
+          </div>
+          <div class="admin__card">
+            <h4 class="admin__card-title">Sales</h4>
+            <p class="admin__card-count">$45,678</p>
+            <div class="admin__card-chart"></div>
+          </div>
+          <div class="admin__card">
+            <h4 class="admin__card-title">Products</h4>
+            <p class="admin__card-count">12</p>
+            <div class="admin__card-chart"></div>
+          </div>
+          <div class="admin__card">
+            <h4 class="admin__card-title">Orders</h4>
+            <p class="admin__card-count">67</p>
+            <div class="admin__card-chart"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p class="footer__text">© 2025 Lunar Howl Creations • Crafted under the full moon</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

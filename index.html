@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lunar Howl Creations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter&family=Sora:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="site">
+  <header class="header header--fixed">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">🌕 Lunar Howl</a>
+      <nav class="nav">
+        <a href="#services" class="nav__link">Services</a>
+        <a href="#about" class="nav__link">About</a>
+        <a href="admin.html" class="nav__link">Admin</a>
+        <a href="#subscribe" class="nav__link nav__link--cta">Join the Pack</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="hero" id="hero">
+      <div class="hero__overlay"></div>
+      <div class="hero__claw-container">
+        <svg class="hero__claw" viewBox="0 0 100 100" preserveAspectRatio="none">
+          <path class="hero__claw-mark" d="M 20,85 C 25,70 28,55 25,40 C 22,25 15,10 10,5" stroke="#2C9AB7" fill="none"
+            stroke-width="3" />
+          <path class="hero__claw-mark" d="M 40,85 C 45,70 48,55 45,40 C 42,25 35,10 30,5" stroke="#2C9AB7" fill="none"
+            stroke-width="3" />
+          <path class="hero__claw-mark" d="M 60,85 C 65,70 68,55 65,40 C 62,25 55,10 50,5" stroke="#2C9AB7" fill="none"
+            stroke-width="3" />
+          <path class="hero__claw-mark" d="M 80,85 C 85,70 88,55 85,40 C 82,25 75,10 70,5" stroke="#2C9AB7" fill="none"
+            stroke-width="3" />
+        </svg>
+      </div>
+      <div class="hero__content">
+        <h2 class="hero__title gradient-glow">Unleash Your Digital Presence</h2>
+        <p class="hero__subtitle">Clawing through the noise with creativity & code</p>
+        <a href="login.html" class="hero__button button">Get Started</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="services__container">
+        <h3 class="services__title">Our Services</h3>
+        <div class="services__grid">
+          <a href="branding.html" class="service-card">
+            <h4 class="service-card__title">Branding</h4>
+            <p class="service-card__description">Create a visual identity that's unforgettable and sharp.</p>
+          </a>
+          <a href="web-development.html" class="service-card">
+            <h4 class="service-card__title">Web Development</h4>
+            <p class="service-card__description">Custom-coded, performant, and built to scale.</p>
+          </a>
+          <a href="digital-marketing.html" class="service-card">
+            <h4 class="service-card__title">Digital Marketing</h4>
+            <p class="service-card__description">SEO, Ads, Funnels — full moon strategy power.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about__container">
+        <svg class="about__image" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <!-- Wolf Base -->
+          <path
+            d="M100 180c-30 0-60-30-60-60 0-20 10-40 30-50 10-5 20-8 30-8s20 3 30 8c20 10 30 30 30 50 0 30-30 60-60 60z"
+            fill="#2C9AB7" opacity="0.1" />
+          <!-- Circuit Lines -->
+          <path d="M70 100h60M85 80h30M85 120h30" stroke="#2C9AB7" stroke-width="2" fill="none" />
+          <!-- Tech Details -->
+          <circle cx="65" cy="90" r="3" fill="#2C9AB7" />
+          <circle cx="135" cy="90" r="3" fill="#2C9AB7" />
+          <circle cx="100" cy="110" r="2" fill="#2C9AB7" />
+          <!-- Wolf Eyes -->
+          <circle cx="85" cy="80" r="5" fill="#2C9AB7" />
+          <circle cx="115" cy="80" r="5" fill="#2C9AB7" />
+          <!-- Digital Particles -->
+          <circle cx="75" cy="130" r="1" fill="#2C9AB7" />
+          <circle cx="125" cy="130" r="1" fill="#2C9AB7" />
+          <circle cx="100" cy="140" r="1" fill="#2C9AB7" />
+        </svg>
+        <div class="about__content">
+          <h3 class="about__title">Our Vision</h3>
+          <p class="about__description">We're storytellers in code and design, guided by the moon. Each project is a new
+            howl echoing across digital mountains.</p>
+          <a href="about-us.html" class="about__button button">Explore The Pack</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe" id="subscribe">
+      <div class="subscribe__container">
+        <h3 class="subscribe__title">Join the Lunar Pack</h3>
+        <form class="subscribe__form">
+          <input type="text" placeholder="First Name" class="subscribe__input" required />
+          <input type="email" placeholder="Email Address" class="subscribe__input" required />
+          <button type="submit" class="subscribe__button button">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="partnering" id="partnering">
+      <div class="partnering__container">
+        <h3 class="partnering__title">Partnering Ventures</h3>
+        <div class="partnering__grid">
+          <div class="partnering__card">
+            <h4 class="partnering__card-title">Photon Online Photo Album</h4>
+            <p class="partnering__card-description">Create and share your memories under the moonlight.</p>
+          </div>
+          <div class="partnering__card">
+            <h4 class="partnering__card-title">Lunar Howl Printing</h4>
+            <p class="partnering__card-description">Premium printing services for the nocturnal creative.</p>
+          </div>
+          <div class="partnering__card">
+            <h4 class="partnering__card-title">Night Writer Studio</h4>
+            <p class="partnering__card-description">A platform for moonlit storytellers and creators.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__container">
+      <div class="footer__content">
+        <div class="footer__section">
+          <h3 class="footer__title">Lunar Howl</h3>
+          <p>Designing with the night in mind.</p>
+        </div>
+        <div class="footer__section">
+          <h4 class="footer__subtitle">Quick Links</h4>
+          <ul class="footer__list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h4 class="footer__subtitle">Follow Us</h4>
+          <div class="footer__social">
+            <!-- Add social icons here -->
+            🌕 🐺 🌙
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
